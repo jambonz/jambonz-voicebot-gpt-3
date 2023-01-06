@@ -1,0 +1,26 @@
+{
+  "name": "jambonz-chat-gpt",
+  "version": "0.0.1",
+  "description": "jambonz voice gateway to ChatGPT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client": "^0.3.35",
+    "bent": "^7.3.12",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1",
+    "openai": "^3.1.0",
+    "pino": "^8.8.0",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
