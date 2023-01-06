@@ -11,7 +11,7 @@ module.exports = {
     env: {
       NODE_ENV: 'production',
       LOGLEVEL: 'info',
-      HTTP_PORT: 3000,
+      WS_PORT: 3080,
       OPENAI_API_KEY: '',
       OPENAI_API_MODEL: 'text-davinci-003',
       JAMBONZ_ACCOUNT_SID: '',
