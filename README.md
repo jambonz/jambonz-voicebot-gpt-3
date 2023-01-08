@@ -1,4 +1,4 @@
-# jambonz-chat-gpt
+# jambonz-voicebot-gpt-3
 
 This is an example jambonz application that demonstrates how to use the websocket interface to interact with the OpenAI GPT-3 API in a voice call.
 
@@ -14,8 +14,8 @@ This is an example jambonz application that demonstrates how to use the websocke
 1. Install the dependencies:
 
 ```shell
-git clone https://github.com/jambonz/jambonz-chat-gpt.git
-cd jambonz-chat-gpt
+git clone https://github.com/jambonz/jambonz-voicebot-gpt-3
+cd jambonz-voicebot-gpt-3
 npm install
 ```
 
