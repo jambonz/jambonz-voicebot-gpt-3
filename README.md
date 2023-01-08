@@ -22,11 +22,14 @@ npm install
 2. Edit the provided `ecosystem.config.js` file to insert your OpenAI and jambonz credentials.  
 
 **jambonz variables**
-The standard jambonz configuration must be suuplied
+
+The standard jambonz configuration must be supplied:
 - `JAMBONZ_ACCOUNT_SID` - your account sid
 - `JAMBONZ_API_KEY` - an api key for your jambonz account
 - `WEBHOOK_SECRET` - the webhook secret for your account
 
 **openai variables**
+
+To access openai you must have created an [account](https://openai.com/api/) and generated an api key.
 - `OPENAI_API_KEY` - an openai api key
 - `OPENAI_API_MODEL` - the GPT-3 model to use (defaults to text-davinci-003)
