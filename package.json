@@ -1,6 +1,6 @@
 {
-  "name": "jambonz-chat-gpt",
-  "version": "0.0.1",
+  "name": "jambonz-voicebot-gpt-3",
+  "version": "0.0.2",
   "description": "jambonz voice gateway to GPT-3",
   "main": "app.js",
   "scripts": {
