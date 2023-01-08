@@ -1,7 +1,7 @@
 {
   "name": "jambonz-chat-gpt",
   "version": "0.0.1",
-  "description": "jambonz voice gateway to ChatGPT",
+  "description": "jambonz voice gateway to GPT-3",
   "main": "app.js",
   "scripts": {
     "start": "node app",
