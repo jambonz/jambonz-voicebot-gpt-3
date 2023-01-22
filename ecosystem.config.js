@@ -12,11 +12,8 @@ module.exports = {
       NODE_ENV: 'production',
       LOGLEVEL: 'info',
       WS_PORT: 3080,
-      OPENAI_API_KEY: '',
-      OPENAI_API_MODEL: 'text-davinci-003',
-      JAMBONZ_ACCOUNT_SID: '',
-      JAMBONZ_API_KEY: '',
-      WEBHOOK_SECRET: ''
+      OPENAI_API_KEY: 'your-key-here',
+      OPENAI_API_MODEL: 'text-davinci-003'
     }
   }]
 };

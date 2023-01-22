@@ -1,15 +1,12 @@
-const {WebSocketServer} = require('ws');
-const {WsRouter, WsSession, handleProtocols} = require('@jambonz/node-client');
-const router = new WsRouter();
+const {createServer} = require('http');
+const {createEndpoint} = require('@jambonz/node-client-ws');
+const server = createServer();
+const makeService = createEndpoint({server});
 const logger = require('pino')({level: process.env.LOGLEVEL || 'info'});
 const port = process.env.WS_PORT || 3000;
-const wss = new WebSocketServer({ port, handleProtocols });
 
-router.use(require('./lib/routes'));
+require('./lib/routes')({logger, makeService});
 
-wss.on('listening', () => {
-  logger.info(`websocket server listening on port ${port}`);
-});
-wss.on('connection', (ws, req) => {
-  new WsSession({logger, router, ws, req});
+server.listen(port, () => {
+  logger.info(`Chat-GBT3 listening at http://localhost:${port}`);
 });
