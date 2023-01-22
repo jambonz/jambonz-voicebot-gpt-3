@@ -19,14 +19,7 @@ cd jambonz-voicebot-gpt-3
 npm install
 ```
 
-2. Edit the provided `ecosystem.config.js` file to insert your OpenAI and jambonz credentials.  
-
-**jambonz variables**
-
-The standard jambonz configuration must be supplied:
-- `JAMBONZ_ACCOUNT_SID` - your account sid
-- `JAMBONZ_API_KEY` - an api key for your jambonz account
-- `WEBHOOK_SECRET` - the webhook secret for your account
+2. Edit the provided `ecosystem.config.js` file to insert your OpenAI api key.  
 
 **openai variables**
 
